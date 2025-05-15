@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color:  rgba(29, 156, 206, 0.952);
+}
+
+main{
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-style: italic;
+    background-color: rgb(45, 100, 219);
+    color: rgb(67, 37, 199);
+    height: 50px;
+
+
+}
+
+.sobre{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(19, 111, 148, 0.952);
+    color:  rgb(12, 47, 110);
+}
+
+.sobreMim{
+    align-items: center;
+    display: flex;
+    margin-left: 100px;
+
+}
+
+h1{
+    text-align: center;
+}
+
+.imagemFoto{
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+}
+
+.projetos{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(29, 17, 194, 0.377);
+    height: 400px;
+}
+
+.imagemProjeto{
+    height: 300px;
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contatos{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+footer{
+    background-color: rgb(42, 131, 167);
+    height: 200px;
+    color: rgb(67, 37, 199);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color:  rgb(67, 37, 199);
+
+}
